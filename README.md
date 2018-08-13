@@ -9,6 +9,7 @@ Mandarin Project is ..... (#todo)
    * [Demo Playthrough](#demo-playthrough)
 2. [Spetial Context System](#spetial-context-system)
    * [API Guide](#api-guide)
+   * [Kinects Controller](#kinects-controller)
 3. [Troubleshooting](#troubleshooting)
 
 ## User Guide
@@ -46,14 +47,38 @@ Mandarin Project is ..... (#todo)
 
 4. ##### Run SCW backend
 
-   > 
+   For **pointing system** and **gesture system** to work Mou's SCW scripts need to be running in the backend. 
+
+   > In terminal:
+   >
+   > - Go to `~/CISL/Spatial_Context/Implementation/core`
+   > - Run `$ python3 start_spatial_context_server.py`
+
+   Make sure kinects are on for motion capture. You can use [kinects controller](#kinects-controller)
 
 5. ##### Demo Dialogue Detail
 
    - [Main Street](#main-street)
-
    - [Garden](#garden)
-
    - [Restaurant](#restaurant)
 
-     
+## Spetial Context System
+
+#### Kinects Controller
+
+It can control all 4 kinects in studio 2 (for more information ask Mou ? #todo)
+
+> In terminal:
+>
+> - Go to `~/CISL/Spatial_Context/Implementation/core`
+> - Run `$ python3 controller.py`
+
+Enter `1`: Start all kinects
+
+Enter `1[kinects number]`: Start specified kinect
+
+> For example: Enter `12` will start number 2 kinect 
+
+Enter 2: Stop all kinects
+
+ 
