@@ -2,7 +2,7 @@
 
 Mandarin Project is ..... (#todo)
 
-### Table of Contents 
+## Table of Contents 
 
 1. [User Guide](#user-guide)
    * [Installation](#installation)
@@ -11,11 +11,11 @@ Mandarin Project is ..... (#todo)
    * [API Guide](#api-guide)
 3. [Troubleshooting](#troubleshooting)
 
-### User Guide
+## User Guide
 
 #### Installation
 
-
+(#todo)
 
 #### Demo Playthrough
 
@@ -36,11 +36,11 @@ Mandarin Project is ..... (#todo)
    >
    > - run `Watson_Send_Intents.bat`
    >
-   > For more information check `node.js backend` readme.txt(//todo) file
+   > For more information check `node.js backend` readme.txt(#todo) file
 
 3. ##### Run Unity Build
 
-   > If using Studio 2 display pc (//todo)
+   > If using Studio 2 display pc (#todo)
    >
    > 
 
