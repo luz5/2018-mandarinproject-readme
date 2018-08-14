@@ -74,11 +74,11 @@ Mandarin Project is ..... (#todo)
 
 5. ##### Demo Dialogue Detail
 
-   - [Main Street](#main-street)
-   - [Garden](#garden)
-   - [Restaurant](#restaurant)
+   - [Main Street](#===main-street===)
+   - [Garden](#===garden===)
+   - [Restaurant](#===restaurant===)
 
-   ##### Main Street
+   ##### ===Main Street===
 
    丽莎好的 
 
@@ -126,7 +126,7 @@ Mandarin Project is ..... (#todo)
 
    （press G to go to garden）
 
-   ##### Garden
+   ##### ===Garden===
 
    同学你好
 
@@ -146,7 +146,7 @@ Mandarin Project is ..... (#todo)
 
    （press G to go to restaurant）
 
-   ##### Restaurant
+   ##### ===Restaurant===
 
    大姐你好
 
