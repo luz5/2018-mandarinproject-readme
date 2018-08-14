@@ -41,8 +41,6 @@ Mandarin Project is ..... (#todo)
 
 2. ##### Run Watson send_intents.js
 
-   For more information, check `nodejs` [readme.txt](https://github.com/luz5/2018-mandarinproject-readme/blob/master/README.txt.txt)
-
    > If using terminal:
    >
    > - go to `~/Mandarin-project/Node.js\ Backend/Watson/`
@@ -53,7 +51,7 @@ Mandarin Project is ..... (#todo)
    >
    > - run `Watson_Send_Intents.bat`
    >
-   > For more information check `node.js backend` readme.txt(#todo) file
+   > For more information check `node.js backend` [readme.txt](https://github.com/luz5/2018-mandarinproject-readme/blob/master/README.txt.txt) file
 
 3. ##### Run Unity Build
 
