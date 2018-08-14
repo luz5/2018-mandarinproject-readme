@@ -39,7 +39,7 @@ Mandarin Project is ..... (#todo)
    > 1. Open http://128.113.21.81:7777/ (Username: `admin` Password: `password`)
    > 2. Check if `multichannel-transcript-worker` is running
 
-2. ##### Run Watson send_intents.js
+2. ##### Run Watson send_intents
 
    > If using terminal:
    >
@@ -77,6 +77,51 @@ Mandarin Project is ..... (#todo)
    - [Main Street](#main-street)
    - [Garden](#garden)
    - [Restaurant](#restaurant)
+
+   ##### Main Street
+
+   丽莎好的
+   老板我要买蛋糕 
+   老板我要买两个
+   老板不用了
+   小姐我要买明信片
+   小姐我要买两个
+   小姐不用了
+   （hit space bar on the keyboard to go another waypoint）
+   阿姨我要买项链
+   阿姨我要买两个
+   阿姨不用了
+   先生我要买水
+   先生我要买两个
+   先生我要买茶
+   先生我要买两个
+   先生不用了
+   （hit space bar again to go back）
+   丽莎不玩了
+   丽莎好的
+   丽莎好的
+   (press G and click "finish" button)
+   丽莎不完了
+   （press G to go to garden）
+
+   ##### Garden
+
+   同学你好
+   师傅我想打太极
+   师傅没有
+   （begin to do 4 separate movements）
+   师傅不要
+   师傅好的
+   （begin to do all 4 movements together）
+   师傅不要
+   （press G to go to restaurant）
+
+   ##### Restaurant
+
+   大姐你好
+   大姐我要咖啡
+   大姐我要饺子
+   大姐再见
 
 
 
@@ -133,7 +178,7 @@ Here are some fixes to some common problems.
 
    If it is running you should see `waiting for input` at the terminal
 
-   If it is not running, [restart](#run-watson-send_intents.js) it 
+   If it is not running, [restart](#run-watson-send_intents) it 
 
 3. If system can not recognize gestures, see if SCW server is disconnected.
 
