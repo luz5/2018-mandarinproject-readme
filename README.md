@@ -34,12 +34,20 @@ Mandarin Project is ..... (#todo)
 
 1. ##### Start TTS 
 
+   (Mac mini)
+
+   you can also do it in Linux server just make sure Mac mini is not in sleep mode.
+
    Should be always running in the backend
+
+   For more information [readme.txt]() (#todo)
 
    > 1. Open http://128.113.21.81:7777/ (Username: `admin` Password: `password`)
    > 2. Check if `multichannel-transcript-worker` is running
 
 2. ##### Run Watson send_intents
+
+   (Display PC)
 
    > If using terminal:
    >
@@ -55,11 +63,15 @@ Mandarin Project is ..... (#todo)
 
 3. ##### Run Unity Build
 
+   (Display PC)
+
    > If using Studio 2 display pc (#todo)
    >
    > 
 
 4. ##### Run SCW backend
+
+   (Linux server) 
 
    For **pointing system** and **gesture system** to work Mou's SCW scripts need to be running in the backend. 
 
@@ -67,6 +79,24 @@ Mandarin Project is ..... (#todo)
    >
    > - Go to `~/CISL/Spatial_Context/Implementation/core`
    > - Run `$ python3 start_spatial_context_server.py`
+
+   Right now we do not have auto switch for pointing system and gesture system. So when you need pointing system only:
+
+   > Go to `~/CISL/Spatial_Context/Implementation/core`
+   >
+   > Open `cog.json`
+   >
+   > Change `pointing_enabled` to 'true', set `gesture_enabled` and `mp_backend_service` to 'false'
+
+   If you need gesture system only:
+
+   > Go to `~/CISL/Spatial_Context/Implementation/core`
+   >
+   > Open `cog.json`
+   >
+   > Change `pointing_enabled` to 'false', set `gesture_enabled` and `mp_backend_service` to 'true'
+
+   You can turn on both at the same time by setting all the variables to 'true' but the accuracy level for both system will decrease.
 
    Make sure kinects are on for motion capture. You can use [kinects controller](#kinects-controller).
 
