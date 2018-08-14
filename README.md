@@ -41,6 +41,8 @@ Mandarin Project is ..... (#todo)
 
 2. ##### Run Watson send_intents.js
 
+   For more information, check `nodejs` [readme.txt](https://github.com/luz5/2018-mandarinproject-readme/blob/master/README.txt.txt)
+
    > If using terminal:
    >
    > - go to `~/Mandarin-project/Node.js\ Backend/Watson/`
