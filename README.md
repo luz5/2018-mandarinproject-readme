@@ -93,6 +93,8 @@ Mandarin Project is ..... (#todo)
    > Open `cog.json`
    >
    > Change `pointing_enabled` to 'true', set `gesture_enabled` and `mp_backend_service` to 'false'
+   >
+   > *** In the [kinects controller](#kinects-controller) , open number 3 kinect by enter `2` first and enter `13`. You can enter `5` to check if `kinect_3` is the only one open when you try to point.***
 
    If you need gesture system only:
 
@@ -101,8 +103,10 @@ Mandarin Project is ..... (#todo)
    > Open `cog.json`
    >
    > Change `pointing_enabled` to 'false', set `gesture_enabled` and `mp_backend_service` to 'true'
+   >
+   > *** In the [kinects controller](#kinects-controller) , open number 4 kinect by enter `2` first and enter `14`. You can enter `5` to check if `kinect_4` is the only one open when you try to use gesture (like Taiji) .***
 
-   You can turn on both at the same time by setting all the variables to 'true' but the accuracy level for both system will decrease.
+   You can turn on both system at the same time by setting all the variables to 'true' but the accuracy level for both system will decrease.
 
    Make sure kinects are on for motion capture. You can use [kinects controller](#kinects-controller).
 
