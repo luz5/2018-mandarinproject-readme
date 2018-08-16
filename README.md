@@ -36,7 +36,7 @@ Mandarin Project is ..... (#todo)
 
    (Mac mini)
 
-   you can also do it in Linux server just make sure Mac mini is not in sleep mode.
+   you can also do it in Linux server or Display PC just make sure Mac mini is not in sleep mode.
 
    Should be always running in the backend
 
@@ -59,7 +59,13 @@ Mandarin Project is ..... (#todo)
    >
    > - run `Watson_Send_Intents.bat`
    >
+   > If you want to reset the backend in unity:
+   >
+   > - Hit `Rset Cntxt` button at the debug menu 
+   >
    > For more information check `node.js backend` [readme.txt](https://github.com/luz5/2018-mandarinproject-readme/blob/master/README.txt.txt) file
+   >
+   > If you want to reset the backend in unity
 
 3. ##### Run Unity Build
 
@@ -186,7 +192,7 @@ Mandarin Project is ..... (#todo)
 
    大姐再见
 
-
+For more information check [summer challenge dialogues](https://docs.google.com/document/d/1KCpw9ZSXUizJuU2y8bDQvNJw6xpRIclGGiuFVKeB3A0/edit#heading=h.h0vqzkscp9u3) 
 
 
 
